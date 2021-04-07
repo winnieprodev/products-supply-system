@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GridTile Snapshot tests it matches the snapshot for image 1`] = `
+.c2 {
+  background: #F3F3F3;
+  border-radius: 10px;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.c0:hover .c1 {
+  background: #EEEEEE;
+}
+
+.c3 {
+  width: 60%;
+  max-height: 8vw;
+  padding: 40px;
+}
+
+.c4 {
+  margin: 8px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1 c2"
+  >
+    <img
+      class="c3"
+      src="img.png"
+    />
+  </div>
+  <div
+    class="c4"
+  >
+    test
+  </div>
+</div>
+`;
+
+exports[`GridTile Snapshot tests it matches the snapshot for mono 1`] = `
+.c2 {
+  background: #F3F3F3;
+  border-radius: 10px;
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.c0:hover .c1 {
+  background: #EEEEEE;
+}
+
+.c3 {
+  color: rgba(0,0,0,0.25);
+  text-shadow: 0 5px 10px white;
+  font-size: 6vw;
+  font-weight: bold;
+  text-align: center;
+  line-height: calc(8vw + 80px);
+}
+
+.c4 {
+  margin: 8px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1 c2"
+  >
+    <div
+      class="c3"
+    >
+      TES
+    </div>
+  </div>
+  <div
+    class="c4"
+  >
+    test
+  </div>
+</div>
+`;

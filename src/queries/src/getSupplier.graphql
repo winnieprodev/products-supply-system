@@ -1,0 +1,10 @@
+query getSupplier($supplierId: Int!) {
+  suppliers_by_pk(id: $supplierId) {
+    id
+    name
+    email
+    phone
+    type
+    note
+  }
+}

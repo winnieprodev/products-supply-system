@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetails: utils quantitiesToMap return proper value 1`] = `Object {}`;
+
+exports[`ProductDetails: utils quantitiesToMap return proper value 2`] = `
+Object {
+  "loose": 1,
+  "whole": 3,
+}
+`;

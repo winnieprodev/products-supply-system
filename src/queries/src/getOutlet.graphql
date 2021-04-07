@@ -1,0 +1,10 @@
+query getOutlet($outletId: Int!) {
+  outlets_by_pk (id: $outletId){
+    id
+    name
+    address
+    email
+    note
+    phone
+  }
+}

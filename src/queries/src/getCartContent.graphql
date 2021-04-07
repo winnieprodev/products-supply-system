@@ -1,0 +1,9 @@
+subscription getCartContent($cartId: Int!) {
+  orders_by_pk(id: $cartId) {
+    line_items {
+      product_id
+      loose_quantity
+      whole_quantity
+    }
+  }
+}

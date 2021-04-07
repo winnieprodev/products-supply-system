@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content Snapshot tests it matches the snapshot 1`] = `
+.c0 {
+  width: 80%;
+  min-width: 1024px;
+  max-width: 1600px;
+  margin: 36px auto;
+  padding: 16px;
+}
+
+<div
+  class="c0"
+>
+  test
+</div>
+`;

@@ -1,0 +1,5 @@
+mutation setCartItem($orderId: Int!, $productId: Int!, $whole: Int!, $loose: Int!) {
+  set_quantity(args: {loose_quantity: $loose, order_id: $orderId, product_id: $productId, whole_quantity: $whole}) {
+    id
+  }
+}

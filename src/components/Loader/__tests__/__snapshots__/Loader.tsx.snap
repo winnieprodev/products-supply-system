@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader Snapshot tests it matches the snapshot 1`] = `
+.c0 {
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  position: relative;
+}
+
+.c0:before {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background: #F3F3F3;
+  display: block;
+  content: "";
+  border-radius: 50%;
+  -webkit-animation: hAYQBa 5s infinite;
+  animation: hAYQBa 5s infinite;
+}
+
+.c1 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 48px;
+  height: 48px;
+  -webkit-animation: iizYDp 10s infinite;
+  animation: iizYDp 10s infinite;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.c2 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 48px;
+  height: 48px;
+  -webkit-animation: iizYDp 10s infinite;
+  animation: iizYDp 10s infinite;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  opacity: 0.3;
+}
+
+.c3 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 48px;
+  height: 48px;
+  -webkit-animation: iizYDp 10s infinite;
+  animation: iizYDp 10s infinite;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  opacity: 0.3;
+}
+
+<div
+  class="c0"
+>
+  <img
+    class="c1"
+    src="logo.svg"
+  />
+  <img
+    class="c2"
+    src="logo.svg"
+  />
+  <img
+    class="c3"
+    src="logo.svg"
+  />
+</div>
+`;

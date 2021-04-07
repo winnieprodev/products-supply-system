@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartAnchor Snapshot tests it matches the snapshot for 0 amount 1`] = `null`;
+
+exports[`CartAnchor Snapshot tests it matches the snapshot for 5 amount 1`] = `
+.c0 {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 24px;
+  background: #F25C05;
+  -webkit-animation: foLSoj ease 0.3s;
+  animation: foLSoj ease 0.3s;
+  color: #FFFFFF;
+}
+
+<div
+  class="c0"
+>
+  5
+</div>
+`;

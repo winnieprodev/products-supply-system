@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Snapshot tests it matches the snapshot 1`] = `
+<label
+  class=""
+>
+  <div
+    class=""
+  />
+</label>
+`;
+
+exports[`Input Snapshot tests it matches the snapshot for only digits and max length 1`] = `
+<label
+  class=""
+>
+  <div
+    class=""
+  />
+</label>
+`;

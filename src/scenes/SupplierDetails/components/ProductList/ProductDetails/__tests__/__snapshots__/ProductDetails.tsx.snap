@@ -1,0 +1,367 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetails Snapshot tests it matches the snapshot 1`] = `
+.c16 {
+  margin: 15px;
+  width: 220px;
+  display: inline-block;
+}
+
+.c10 {
+  outline: none;
+  cursor: pointer;
+  border: 0 none;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+  background-color: #F25C05;
+  color: #FFFFFF;
+  opacity: 0.3;
+}
+
+.c10:hover {
+  background-color: #DD5202;
+}
+
+.c10:active {
+  background-color: #FF7626;
+}
+
+.c14 {
+  outline: none;
+  cursor: pointer;
+  border: 0 none;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+  background-color: #F25C05;
+  color: #FFFFFF;
+}
+
+.c14:hover {
+  background-color: #DD5202;
+}
+
+.c14:active {
+  background-color: #FF7626;
+}
+
+.c17 {
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 4px;
+  font-weight: 700;
+  width: 100%;
+  margin: 0;
+}
+
+.c11 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  font-size: 10px;
+  border-radius: 50%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c12 {
+  border: 0;
+  font-size: 12px;
+  background-color: #EEEEEE;
+  color: #5F5F5F;
+  border-radius: 6px;
+  padding: 8px 12px;
+  outline: none;
+  box-shadow: inset 1px 2px 8px rgb(0,0,0,0.05);
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+  width: 40px;
+  text-align: right;
+}
+
+.c12::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+
+.c12::-moz-placeholder {
+  color: #bdbdbd;
+}
+
+.c12:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+
+.c12::placeholder {
+  color: #bdbdbd;
+}
+
+.c12:hover {
+  box-shadow: inset 2px 3px 8px rgb(0,0,0,0.1);
+  background-color: #F3F3F3;
+}
+
+.c12:active {
+  background-color: #E7E7E7;
+}
+
+.c9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c15 {
+  padding-left: 8px;
+}
+
+.c13 {
+  margin: 0 2px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  background: #f4f4f4;
+  position: relative;
+  padding: 2px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.c1 {
+  width: 375px;
+  background: #f4f4f4;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2 {
+  width: 100%;
+  max-height: 100%;
+  mix-blend-mode: darken;
+}
+
+.c3 {
+  padding: 15px;
+  width: calc(100% - 375px);
+  position: relative;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.c4 {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 24px;
+  width: 24px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 50%;
+  color: #000000;
+}
+
+.c4:hover {
+  background: #F3F3F3;
+}
+
+.c5 {
+  padding-left: 15px;
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.c6 {
+  padding-left: 15px;
+  color: #000000;
+  font-size: 16px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.c8 {
+  padding: 10px 15px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <img
+      class="c2"
+      src="src"
+    />
+  </div>
+  <div
+    class="c3"
+  >
+    <div
+      class="c4"
+    >
+      <svg
+        aria-hidden="true"
+        class="svg-inline--fa fa-times fa-w-11 "
+        data-icon="times"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        viewBox="0 0 352 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <p
+      class="c5"
+    >
+      Whipping Cream 35% 1L
+    </p>
+    <div
+      class="c6"
+    >
+      <div>
+        Supplier:
+         
+        <a
+          href="/browse/undefined/undefined/test-supplier/"
+        >
+          test supplier
+        </a>
+      </div>
+    </div>
+    <div
+      class="c7"
+    />
+    <div
+      class="c8"
+    >
+      loose
+      :
+      <br />
+      <div
+        class="c9"
+      >
+        <button
+          class="c10 c11"
+          disabled=""
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-minus fa-w-14 "
+            data-icon="minus"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <input
+          class="c12 c13"
+          maxlength="4"
+          placeholder="0"
+          value=""
+        />
+        <button
+          class="c14 c11"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-plus fa-w-14 "
+            data-icon="plus"
+            data-prefix="fas"
+            focusable="false"
+            role="img"
+            viewBox="0 0 448 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+              fill="currentColor"
+            />
+          </svg>
+        </button>
+        <div
+          class="c15"
+        >
+          <b>
+            Litter
+          </b>
+           (
+          12 x 1L
+          )
+        </div>
+      </div>
+    </div>
+    <div
+      class="c16"
+    >
+      <button
+        class="c10 c17"
+        disabled=""
+      >
+        Add to order
+      </button>
+    </div>
+    <div
+      class="c6"
+    >
+      delivery on: 
+      tomorrow
+    </div>
+  </div>
+</div>
+`;

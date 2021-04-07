@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoaderScreen Snapshot tests it matches the snapshot 1`] = `
+.c1 {
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  position: relative;
+}
+
+.c1:before {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background: #F3F3F3;
+  display: block;
+  content: "";
+  border-radius: 50%;
+  -webkit-animation: hAYQBa 5s infinite;
+  animation: hAYQBa 5s infinite;
+}
+
+.c2 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 48px;
+  height: 48px;
+  -webkit-animation: iizYDp 10s infinite;
+  animation: iizYDp 10s infinite;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.c3 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 48px;
+  height: 48px;
+  -webkit-animation: iizYDp 10s infinite;
+  animation: iizYDp 10s infinite;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  opacity: 0.3;
+}
+
+.c4 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 48px;
+  height: 48px;
+  -webkit-animation: iizYDp 10s infinite;
+  animation: iizYDp 10s infinite;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  opacity: 0.3;
+}
+
+.c0 {
+  margin: 20vh auto;
+  width: 60%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <img
+      class="c2"
+      src="logo.svg"
+    />
+    <img
+      class="c3"
+      src="logo.svg"
+    />
+    <img
+      class="c4"
+      src="logo.svg"
+    />
+  </div>
+  <div
+    class="c5"
+  >
+    test
+  </div>
+</div>
+`;
+
+exports[`LoaderScreen Snapshot tests it matches the snapshot for mode=singleLine 1`] = `
+.c1 {
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  position: relative;
+}
+
+.c1:before {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background: #F3F3F3;
+  display: block;
+  content: "";
+  border-radius: 50%;
+  -webkit-animation: hAYQBa 5s infinite;
+  animation: hAYQBa 5s infinite;
+}
+
+.c2 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 48px;
+  height: 48px;
+  -webkit-animation: iizYDp 10s infinite;
+  animation: iizYDp 10s infinite;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.c3 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 48px;
+  height: 48px;
+  -webkit-animation: iizYDp 10s infinite;
+  animation: iizYDp 10s infinite;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  opacity: 0.3;
+}
+
+.c4 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 48px;
+  height: 48px;
+  -webkit-animation: iizYDp 10s infinite;
+  animation: iizYDp 10s infinite;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  opacity: 0.3;
+}
+
+.c0 {
+  margin: 8px auto;
+  width: 60%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c5 {
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <img
+      class="c2"
+      src="logo.svg"
+    />
+    <img
+      class="c3"
+      src="logo.svg"
+    />
+    <img
+      class="c4"
+      src="logo.svg"
+    />
+  </div>
+  <div
+    class="c5"
+  >
+    test
+  </div>
+</div>
+`;
+
+exports[`LoaderScreen Snapshot tests it matches the snapshot for mode=tiny 1`] = `
+.c1 {
+  width: 48px;
+  height: 48px;
+  padding: 8px;
+  position: relative;
+}
+
+.c1:before {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  background: #F3F3F3;
+  display: block;
+  content: "";
+  border-radius: 50%;
+  -webkit-animation: hAYQBa 5s infinite;
+  animation: hAYQBa 5s infinite;
+}
+
+.c2 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 48px;
+  height: 48px;
+  -webkit-animation: iizYDp 10s infinite;
+  animation: iizYDp 10s infinite;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.c3 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 48px;
+  height: 48px;
+  -webkit-animation: iizYDp 10s infinite;
+  animation: iizYDp 10s infinite;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  opacity: 0.3;
+}
+
+.c4 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 48px;
+  height: 48px;
+  -webkit-animation: iizYDp 10s infinite;
+  animation: iizYDp 10s infinite;
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  opacity: 0.3;
+}
+
+.c0 {
+  margin: 8px auto;
+  width: 60%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 48px;
+  position: fixed;
+  right: 30px;
+  top: -4px;
+  -webkit-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+  -webkit-animation: fewUyK ease 0.3s;
+  animation: fewUyK ease 0.3s;
+}
+
+.c5 {
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <img
+      class="c2"
+      src="logo.svg"
+    />
+    <img
+      class="c3"
+      src="logo.svg"
+    />
+    <img
+      class="c4"
+      src="logo.svg"
+    />
+  </div>
+  <div
+    class="c5"
+  >
+    test
+  </div>
+</div>
+`;

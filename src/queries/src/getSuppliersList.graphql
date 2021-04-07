@@ -1,0 +1,13 @@
+query getSuppliersList($outletId: Int!, $type: supplier_types_enum!) {
+  outlet_product_suppliers(
+    where: { outlet_id: { _eq: $outletId }, supplier: { type: { _eq: $type } } }
+    distinct_on: supplier_id
+  ) {
+    supplier {
+      id
+      name
+      phone
+      email
+    }
+  }
+}

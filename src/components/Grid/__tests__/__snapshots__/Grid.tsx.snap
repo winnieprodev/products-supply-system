@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid Snapshot tests it matches the snapshot for basic use 1`] = `
+.c1 {
+  display: contents;
+}
+
+.c1 > .animated {
+  opacity: 0;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.c0 {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 > * > * {
+  width: calc(20% - 24px);
+  margin: 12px;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="animated"
+      >
+        item
+      </div>
+      <div
+        class="animated"
+      >
+        item
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Grid Snapshot tests it matches the snapshot with props 1`] = `
+.c1 {
+  display: contents;
+}
+
+.c1 > .animated {
+  opacity: 0;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.c0 {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 > * > * {
+  width: calc(20% - 24px);
+  margin: 12px;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="animated"
+      >
+        item
+      </div>
+      <div
+        class="animated"
+      >
+        item
+      </div>
+    </div>
+  </div>
+</div>
+`;

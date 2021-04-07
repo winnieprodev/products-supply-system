@@ -1,0 +1,15 @@
+overwrite: true
+schema:
+  - https://graphql.dev.rtg.tappollo.app/v1/graphql:
+      headers:
+        Authorization: Bearer ${authToken} 
+documents: "src/queries/src/**/*.graphql"
+generates:
+  src/queries/gen/queries.tsx:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+  ./graphql.schema.json:
+    plugins:
+      - "introspection"

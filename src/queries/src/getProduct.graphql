@@ -1,0 +1,15 @@
+query getProduct($productId: Int!) {
+  products_by_pk(id: $productId) {
+    name
+    id
+    code
+    loose_uom {
+      name
+      unit
+    }
+    whole_uom {
+      name
+      unit
+    }
+  }
+}

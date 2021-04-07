@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartDropdown Snapshot tests it matches the snapshot 1`] = `
+.c2 {
+  outline: none;
+  cursor: pointer;
+  border: 0 none;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+  background-color: #F25C05;
+  color: #FFFFFF;
+}
+
+.c2:hover {
+  background-color: #DD5202;
+}
+
+.c2:active {
+  background-color: #FF7626;
+}
+
+.c3 {
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 4px;
+  font-weight: 700;
+  width: 100%;
+  margin: 0;
+}
+
+.c0 {
+  width: 430px;
+  font-size: 13px;
+}
+
+.c1 {
+  margin: 20px 0 12px;
+  overflow: hidden;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  />
+  <a
+    href="/checkout//local//0/"
+  >
+    <button
+      class="c2 c3"
+    >
+      Checkout
+    </button>
+  </a>
+</div>
+`;

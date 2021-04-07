@@ -1,0 +1,774 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList Snapshot tests it matches the snapshot for basic use 1`] = `
+.c1 {
+  display: contents;
+}
+
+.c1 > .animated {
+  opacity: 0;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  gap: 1%;
+}
+
+.c2 {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  width: 19%;
+}
+
+.c10 {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  width: 19%;
+}
+
+.c3 {
+  cursor: pointer;
+  background: white;
+  position: relative;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 10px;
+}
+
+.c4 {
+  position: relative;
+  color: #808080;
+  background: #F3F3F3;
+  border-radius: 10px;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4:hover {
+  background: #EEEEEE;
+}
+
+.c5 {
+  width: 100%;
+  max-height: 100%;
+  mix-blend-mode: darken;
+}
+
+.c6 {
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: 0;
+  background: rgba(244,244,244,0.5);
+  border-radius: 6px;
+}
+
+.c7 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 10px 0 10px 10px;
+}
+
+.c8 {
+  color: #000000;
+  font-size: 10px;
+}
+
+.c9 {
+  padding: 10px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2 animated"
+    >
+      <div
+        class="c3"
+      >
+        <div>
+          <div
+            class="c4"
+          >
+            <img
+              class="c5"
+              src="src"
+            />
+            <div
+              class="c6"
+            >
+              <div
+                class="c7"
+              >
+                <div
+                  class="c8"
+                >
+                  loose
+                  : 
+                  12 x 1L
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c9"
+          >
+            Whipping Cream 35% 1L
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c10 animated"
+    >
+      <div
+        class="c3"
+      >
+        <div>
+          <div
+            class="c4"
+          >
+            <img
+              class="c5"
+              src="src"
+            />
+            <div
+              class="c6"
+            >
+              <div
+                class="c7"
+              >
+                <div
+                  class="c8"
+                >
+                  loose
+                  : 
+                  12 x 1L
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c9"
+          >
+            Whipping Cream 35% 1L
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ProductList Snapshot tests it matches the snapshot when item is selected 1`] = `
+.c27 {
+  margin: 15px;
+  width: 220px;
+  display: inline-block;
+}
+
+.c21 {
+  outline: none;
+  cursor: pointer;
+  border: 0 none;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+  background-color: #F25C05;
+  color: #FFFFFF;
+  opacity: 0.3;
+}
+
+.c21:hover {
+  background-color: #DD5202;
+}
+
+.c21:active {
+  background-color: #FF7626;
+}
+
+.c25 {
+  outline: none;
+  cursor: pointer;
+  border: 0 none;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+  background-color: #F25C05;
+  color: #FFFFFF;
+}
+
+.c25:hover {
+  background-color: #DD5202;
+}
+
+.c25:active {
+  background-color: #FF7626;
+}
+
+.c28 {
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 4px;
+  font-weight: 700;
+  width: 100%;
+  margin: 0;
+}
+
+.c22 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  font-size: 10px;
+  border-radius: 50%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c23 {
+  border: 0;
+  font-size: 12px;
+  background-color: #EEEEEE;
+  color: #5F5F5F;
+  border-radius: 6px;
+  padding: 8px 12px;
+  outline: none;
+  box-shadow: inset 1px 2px 8px rgb(0,0,0,0.05);
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+  width: 40px;
+  text-align: right;
+}
+
+.c23::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+
+.c23::-moz-placeholder {
+  color: #bdbdbd;
+}
+
+.c23:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+
+.c23::placeholder {
+  color: #bdbdbd;
+}
+
+.c23:hover {
+  box-shadow: inset 2px 3px 8px rgb(0,0,0,0.1);
+  background-color: #F3F3F3;
+}
+
+.c23:active {
+  background-color: #E7E7E7;
+}
+
+.c20 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c26 {
+  padding-left: 8px;
+}
+
+.c24 {
+  margin: 0 2px;
+}
+
+.c1 {
+  display: contents;
+}
+
+.c1 > .animated {
+  opacity: 0;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  background: #f4f4f4;
+  position: relative;
+  padding: 2px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.c12 {
+  width: 375px;
+  background: #f4f4f4;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c13 {
+  width: 100%;
+  max-height: 100%;
+  mix-blend-mode: darken;
+}
+
+.c14 {
+  padding: 15px;
+  width: calc(100% - 375px);
+  position: relative;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.c15 {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 24px;
+  width: 24px;
+  text-align: center;
+  padding: 8px;
+  border-radius: 50%;
+  color: #000000;
+}
+
+.c15:hover {
+  background: #F3F3F3;
+}
+
+.c16 {
+  padding-left: 15px;
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.c17 {
+  padding-left: 15px;
+  color: #000000;
+  font-size: 16px;
+}
+
+.c18 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.c19 {
+  padding: 10px 15px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  gap: 1%;
+}
+
+.c2 {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  width: 19%;
+}
+
+.c29 {
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
+  width: 19%;
+}
+
+.c10 {
+  -webkit-order: 5;
+  -ms-flex-order: 5;
+  order: 5;
+  width: 100%;
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  transform: none !important;
+}
+
+.c3 {
+  cursor: pointer;
+  background: white;
+  position: relative;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 10px;
+  padding: 28px 10px;
+  margin-top: -18px;
+  background: #f4f4f4;
+}
+
+.c30 {
+  cursor: pointer;
+  background: white;
+  position: relative;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 10px;
+}
+
+.c4 {
+  position: relative;
+  color: #808080;
+  background: #F3F3F3;
+  border-radius: 10px;
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c4:hover {
+  background: #EEEEEE;
+}
+
+.c5 {
+  width: 100%;
+  max-height: 100%;
+  mix-blend-mode: darken;
+}
+
+.c6 {
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: 0;
+  background: rgba(244,244,244,0.5);
+  border-radius: 6px;
+}
+
+.c7 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  padding: 10px 0 10px 10px;
+}
+
+.c8 {
+  color: #000000;
+  font-size: 10px;
+}
+
+.c9 {
+  padding: 10px;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2 animated"
+    >
+      <div
+        class="c3"
+      >
+        <div>
+          <div
+            class="c4"
+          >
+            <img
+              class="c5"
+              src="src"
+            />
+            <div
+              class="c6"
+            >
+              <div
+                class="c7"
+              >
+                <div
+                  class="c8"
+                >
+                  loose
+                  : 
+                  12 x 1L
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c9"
+          >
+            Whipping Cream 35% 1L
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c10 animated"
+    >
+      <div
+        class="c11"
+      >
+        <div
+          class="c12"
+        >
+          <img
+            class="c13"
+            src="src"
+          />
+        </div>
+        <div
+          class="c14"
+        >
+          <div
+            class="c15"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-times fa-w-11 "
+              data-icon="times"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 352 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"
+                fill="currentColor"
+              />
+            </svg>
+          </div>
+          <p
+            class="c16"
+          >
+            Whipping Cream 35% 1L
+          </p>
+          <div
+            class="c17"
+          >
+            <div>
+              Supplier:
+               
+              <a
+                href="/browse/undefined/undefined/test-supplier/"
+              >
+                test supplier
+              </a>
+            </div>
+          </div>
+          <div
+            class="c18"
+          />
+          <div
+            class="c19"
+          >
+            loose
+            :
+            <br />
+            <div
+              class="c20"
+            >
+              <button
+                class="c21 c22"
+                disabled=""
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-minus fa-w-14 "
+                  data-icon="minus"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+              <input
+                class="c23 c24"
+                maxlength="4"
+                placeholder="0"
+                value=""
+              />
+              <button
+                class="c25 c22"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-plus fa-w-14 "
+                  data-icon="plus"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 448 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </button>
+              <div
+                class="c26"
+              >
+                <b>
+                  Litter
+                </b>
+                 (
+                12 x 1L
+                )
+              </div>
+            </div>
+          </div>
+          <div
+            class="c27"
+          >
+            <button
+              class="c21 c28"
+              disabled=""
+            >
+              Add to order
+            </button>
+          </div>
+          <div
+            class="c17"
+          >
+            delivery on: 
+            tomorrow
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="c29 animated"
+    >
+      <div
+        class="c30"
+      >
+        <div>
+          <div
+            class="c4"
+          >
+            <img
+              class="c5"
+              src="src"
+            />
+            <div
+              class="c6"
+            >
+              <div
+                class="c7"
+              >
+                <div
+                  class="c8"
+                >
+                  loose
+                  : 
+                  12 x 1L
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="c9"
+          >
+            Whipping Cream 35% 1L
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

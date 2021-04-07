@@ -1,0 +1,10 @@
+query getMyOutlets {
+  outlets {
+    id
+    name
+    address
+    email
+    note
+    phone
+  }
+}

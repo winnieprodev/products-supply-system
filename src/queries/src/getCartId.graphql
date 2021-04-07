@@ -1,0 +1,5 @@
+mutation GetCartId($outletId: Int!, $supplierId: Int!) {
+  find_or_create_cart(args: {outlet_id: $outletId, supplier_id: $supplierId}) {
+    id
+  }
+}

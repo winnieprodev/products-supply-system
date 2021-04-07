@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SupplierLink Snapshot tests it matches the snapshot 1`] = `
+<div>
+  Supplier:
+   
+  <a
+    href="/browse/id/local/title-test/"
+  >
+    title test
+  </a>
+</div>
+`;
